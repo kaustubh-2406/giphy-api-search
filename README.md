@@ -1,6 +1,6 @@
 Hello this is Kaustubh. I have been given the task to implement a giphy api search. It is the repo containing the source. It was build using Vitejs, React, Material UI and React hooks.
 
-URL of site after deployment: 
+URL of site after deployment: [here](https://kaustubh-giphy-demo.netlify.app/)
 
 Some Questions you might be thinking -
 
