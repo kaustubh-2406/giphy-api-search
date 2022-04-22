@@ -1,4 +1,5 @@
 import { Box } from '@mui/material';
+import { useState } from 'react';
 
 import SearchComponent from './SearchComponent.jsx';
 import PaginationComponent from './Pagination.jsx';
