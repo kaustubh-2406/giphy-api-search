@@ -17,3 +17,7 @@ Since I dont have a great commit history. I thought it would be nice to give you
 4. Since, gifs can be of various resolutions. I though that it might be a perfect usecase of masonary layout. So I grabbed the material ui package and it's complimentary masonary package to start my way building the UI.
 5. Then I implemented the UI. Which I think is pretty close to the original design. 
 6. Further Action: Deploy
+
+EXTRA FEATURES:
+- "Ctrl + k" keyboard shortcut to quickly focus on search bar.
+-  By default shows top 15 trending gifs

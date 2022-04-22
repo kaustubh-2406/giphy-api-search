@@ -45,6 +45,7 @@ export default function useGiphyHooks() {
         }
 
         setLoading(false)
+        return gifs
     }
 
     const getTrending = () => searchGiphy();
@@ -52,6 +53,7 @@ export default function useGiphyHooks() {
     return {
         // search based on url
         gifs,
+        setGifs,
         getTrending,
         searchGiphy,
 

@@ -1,10 +1,6 @@
-import useGiphyHooks from '../hooks/useGiphyHooks'
-// import { Button } from "@mui/material";
 import BlackButton from './BlackButton';
 
-export default function PaginationComponent() {
-    const { page, loading, nextPage, prevPage, setPage } = useGiphyHooks()
-
+export default function PaginationComponent({ page, loading, nextPage, prevPage, setPage }) {
     return (
         <footer style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', margin: '2rem auto' }}>
             <BlackButton 

@@ -1,6 +1,5 @@
 import { Card, CardActionArea, CardContent, CardMedia, Typography } from "@mui/material";
 
-
 export default function GiphCard({ gif }) {
   return (
     <Card key={gif.id}>

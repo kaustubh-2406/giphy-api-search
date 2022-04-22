@@ -1,13 +1,11 @@
 import { Box, Typography } from '@mui/material';
 
 import Masonry from '@mui/lab/Masonry';
-import useGiphyHooks from '../hooks/useGiphyHooks.js'
 
 import image from '../../assets/loading.gif'
 import GiphCard from './GiphyCard.jsx';
 
-export default function GifComponent() {
-    const { gifs, loading, err } = useGiphyHooks();
+export default function GifComponent({gifs, loading, err}) {
 
     return (
         <main>

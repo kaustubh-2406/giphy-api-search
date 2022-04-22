@@ -1,22 +1,18 @@
 import { useEffect, useRef, useState } from "react";
 
 import SearchIcon from '@mui/icons-material/Search';
-import { Button, TextField, IconButton, createTheme, ThemeProvider } from "@mui/material";
+import { TextField, IconButton } from "@mui/material";
 import { Box } from "@mui/system";
-import useGiphyHooks from "../hooks/useGiphyHooks";
 import BlackButton from "./BlackButton";
 
-export default function SearchComponent() {
-  const {searchGiphy} = useGiphyHooks();
-
-  const [input, setInput] = useState();
+export default function SearchComponent({searchGiphy, q, setQ}) {
   const handleChange = (e) => {
-    setInput(e.target.value.trim());
+    setQ(e.target.value.trim());
   }
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    searchGiphy(input);
+    searchGiphy(q);
   }
   
   const inputRef = useRef();
